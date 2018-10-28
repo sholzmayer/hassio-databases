@@ -1,0 +1,17 @@
+{
+  "name": "Postgres Database",
+  "version": "11-alpine",
+  "slug": "postgres",
+  "description": "Postgres Database",
+  "startup": "services",
+  "boot": "auto",
+  "options": {
+    "ssl": false
+  },
+  "schema": {
+    "ssl": "bool"
+  },
+  "ports": {
+    "5432/tcp": 5432
+  }
+}
